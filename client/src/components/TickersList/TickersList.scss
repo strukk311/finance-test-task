@@ -1,0 +1,31 @@
+.TickersList {
+  table-layout: fixed;
+  margin: 0 auto;
+  width: 70%;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  border-collapse: collapse;
+
+  margin-top: 50px;
+
+  &__table-header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    background-color: rgb(227, 214, 214);
+    
+    padding: 15px;
+
+    &:first-child {
+      width: 3%;
+    }
+
+    &:nth-child(7){
+      width: 8%;
+    }
+
+    &:last-child {
+      width: 12%;
+    }
+  }
+}

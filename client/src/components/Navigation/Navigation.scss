@@ -1,0 +1,21 @@
+.navbar {
+  max-width: 1200px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.navbar__item {
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: rgb(78, 84, 132);
+  font-size: 18px;
+  transition: 00.3s;
+
+  padding: 15px;
+
+  &:hover {
+    border-bottom: 1px solid #01389d;
+    color: #01389d;
+    transition: 0.3s;
+  }
+}
