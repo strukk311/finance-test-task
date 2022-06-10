@@ -1,6 +1,23 @@
 
 # React Test Task
 
+This application connects to a locally running service and displays price changes for some tickers in real time.
+
+## Local development
+
+### Dependencies
+* Node v14.18.2 and higher
+* NPM 6.14.15 and higher
+
+### Technologies:
+* SCSS
+* Typescript
+* React
+* React hooks
+* React router
+* Redux
+* Socket.io
+
 ## Requirements
 
 We need you to implement a solution to display price tickers data on the UI in realtime.
